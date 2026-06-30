@@ -31,28 +31,40 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "NaviSight – Edge AI Wearable for the Visually Impaired",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "Fine-tuned a YOLOv11 model and built an offline-first computer vision pipeline for assistive navigation in real-world Indian environments.",
+    url: "https://navisight.in/",
   },
   {
-    title: "Web Development for Beginners",
+    title: "LiDAR-Camera Calibration",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "Implemented the MDPCalib paper from scratch, building a complete feature extraction, correspondence matching, and optimization pipeline for accurate sensor fusion.",
+    url: "https://github.com/vramanrs/MR_Lidar_Cam_Calib",
   },
   {
-    title: "My Resume Site",
+    title: "RISC-V Processor Design",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "Designed sequential and 5-stage pipelined RISC-V processors in SystemVerilog with hazard detection, data forwarding, and comprehensive verification.",
+    url: "https://github.com/lakshya0310/RISC-V-Processor",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "Object Detection Robot",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "Developed a ROS1 and Gazebo-based autonomous robot integrating YOLOv5 for real-time object detection, localization, and navigation.",
+    url: "https://github.com/lakshya0310/Object_Detection_Bot",
+  },
+  {
+    title: "Research on Motion Planning Infeasibility",
+    description:
+      "Research at IIIT Hyderabad implementing and extending Li & Dantam (2023) to develop scalable algorithms for infeasibility proofs in robotic motion planning.",
+    url: "https://github.com/lakshya0310/Li_Dantam_2023_Paper_implementation",
+  },
+  {
+    title: "Custom Unix Shell",
+    description:
+      "Built a POSIX-compliant shell in C supporting piping, redirection, process management, networking utilities, and persistent command history.",
+    url: "YOUR_GITHUB_LINK",
   },
 ];
 

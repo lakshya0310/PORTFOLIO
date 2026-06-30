@@ -24,29 +24,31 @@ const imageAltText = "purple and blue abstract background";
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I'm a UI/UX student studying at Barnett Technical University. I enjoy creating unique and simplistic user interfaces in creative ways.";
+  "I'm Lakshya Jindal, a B.Tech + MS (Research) student in Electronics and Communication Engineering at IIIT Hyderabad. I enjoy building intelligent systems at the intersection of robotics, computer vision, embedded systems, and AI, with a focus on solving real-world engineering problems.";
 
 /**
- * List of some of skills or technologies you work on, are learning,
- * passionate about, or enjoy,
+ * Technologies and skills
  */
 const skillsList = [
-  "Web design",
-  "User experience",
-  "Inclusive design",
-  "Focus group testing",
-  "Mobile user interfaces",
-  "Graphic design",
+  "C/C++",
+  "Python",
+  "Robotics (ROS1/ROS2)",
+  "Computer Vision",
+  "Machine Learning",
+  "SystemVerilog",
+  "Embedded Systems",
+  "MATLAB",
+  "Gazebo",
+  "Git & GitHub",
+  "Linux",
+  "SQL",
 ];
 
 /**
- * Use this to give more information about what you are passionate about,
- * how you best work, or even a quote. This will help someone learn more
- * about you on a professional level.
+ * About me
  */
 const detailOrQuote =
-  "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
-
+  "I'm passionate about transforming research into practical engineering solutions. Whether it's autonomous robots, Edge AI, sensor fusion, or computer architecture, I enjoy designing efficient systems, learning new technologies, and tackling challenging problems through hands-on development.";
 const About = () => {
   return (
     <section className="padding" id="about">
