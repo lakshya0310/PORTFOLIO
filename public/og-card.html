@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Outfit:wght@700;800&family=JetBrains+Mono:wght@400;500&display=swap"
+            rel="stylesheet"
+        />
+        <style>
+            body {
+                margin: 0;
+                width: 1200px;
+                height: 630px;
+                overflow: hidden;
+                background: #0a0a0c;
+                font-family: "Outfit", sans-serif;
+                color: #f4f4f5;
+                position: relative;
+            }
+            .grid {
+                position: absolute;
+                inset: 0;
+                background-image: linear-gradient(rgba(244, 244, 245, 0.07) 1px, transparent 1px),
+                    linear-gradient(90deg, rgba(244, 244, 245, 0.07) 1px, transparent 1px);
+                background-size: 72px 72px;
+                -webkit-mask-image: radial-gradient(ellipse at 30% 40%, black, transparent 78%);
+                mask-image: radial-gradient(ellipse at 30% 40%, black, transparent 78%);
+            }
+            .glow {
+                position: absolute;
+                right: 120px;
+                top: 60px;
+                width: 520px;
+                height: 520px;
+                border-radius: 50%;
+                background: rgba(108, 176, 255, 0.14);
+                filter: blur(140px);
+            }
+            .wrap {
+                position: relative;
+                display: flex;
+                height: 100%;
+                align-items: center;
+                justify-content: space-between;
+                padding: 0 84px;
+            }
+            .mono {
+                font-family: "JetBrains Mono", monospace;
+                font-size: 15px;
+                letter-spacing: 6px;
+                color: #6cb0ff;
+                margin: 0 0 26px;
+            }
+            h1 {
+                font-size: 96px;
+                line-height: 0.95;
+                margin: 0;
+                font-weight: 800;
+                letter-spacing: -2px;
+            }
+            .outline {
+                color: transparent;
+                -webkit-text-stroke: 2px #f4f4f5;
+            }
+            .sub {
+                font-family: "JetBrains Mono", monospace;
+                font-size: 16px;
+                letter-spacing: 2px;
+                color: #9aa0aa;
+                margin-top: 30px;
+            }
+            .photo {
+                width: 300px;
+                height: 375px;
+                border-radius: 8px;
+                object-fit: cover;
+                border: 1px solid rgba(244, 244, 245, 0.15);
+            }
+            .mark {
+                position: absolute;
+                left: 84px;
+                bottom: 52px;
+                display: flex;
+                gap: 14px;
+                align-items: center;
+                font-family: "JetBrains Mono", monospace;
+                font-size: 14px;
+                color: #9aa0aa;
+                letter-spacing: 2px;
+            }
+            .lj {
+                width: 44px;
+                height: 44px;
+                border-radius: 10px;
+                background: #1f6feb;
+                color: #fff;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-weight: 800;
+                font-size: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="grid"></div>
+        <div class="glow"></div>
+        <div class="wrap">
+            <div>
+                <p class="mono">IIIT HYDERABAD · ROBOTICS RESEARCH CENTRE</p>
+                <h1>LAKSHYA<br /><span class="outline">JINDAL</span></h1>
+                <p class="sub">MOTION PLANNING · EDGE AI · SILICON · SIGNALS</p>
+            </div>
+            <img
+                class="photo"
+                src="https://lakshya0310.github.io/PORTFOLIO/lakshya.jpg"
+                alt=""
+            />
+        </div>
+        <div class="mark"><span class="lj">LJ</span> PORTFOLIO — RESEARCH · PROJECTS · SKILLS</div>
+    </body>
+</html>
